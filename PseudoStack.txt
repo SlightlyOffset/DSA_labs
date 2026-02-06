@@ -1,0 +1,16 @@
+func copyStack(stack1, stack2):
+	loop if stack2 not empty:
+		stack2.popStack()
+	end loop
+
+	if stack2 empty and stack1 not empty:
+		loop for x in stack1:
+			stack2.pushStack(x)
+		end loop
+	end if
+
+	return stack2
+
+s1 = [10, 20, 30, 40]
+s2 = [55, 35]
+s2 = copyStack(s1, s2)

@@ -1,0 +1,2 @@
+[{"id": "68070027", "name": "Cholteerit Patcharadamrongkul", "gpa": 2.88}, {"id": "68070316", "name": "Sirithep Bordikarn", "gpa": 3.14}, {"id": "68070052", "name": "Thatchakorn Bunnin", "gpa": 4.0}]
+Sirithep Bordikarn

@@ -1,0 +1,14 @@
+// append all Q2 to Q1
+
+func concatQueue(Q1, Q2):
+	if Q2 not empty:
+		loop for x in Q2:
+			Q1.enqueue(x)
+		end loop
+	end if
+
+	return Q1
+
+Q1 = [10, 20, 30, 40]
+Q2 = [45, 25]
+concatQueue(Q1, Q2)
