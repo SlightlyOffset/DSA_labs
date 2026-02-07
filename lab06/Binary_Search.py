@@ -24,22 +24,22 @@ class Student:
 def binary_search(arr, target):
     low = 0
     high = len(arr) - 1
-    comparisons = 0
+    count = 0
 
     while low <= high:
-        mid = (low + high) // 2
+        mid = (low + high - 1) // 2
         mid_val = arr[mid].get_name()
-        # Increment once per iteration (one "probe")
-        comparisons += 1
+        count += 1
 
         if mid_val == target:
-            return arr[mid], comparisons, mid
+            return arr[mid], count, mid
+
         if mid_val < target:
             low = mid + 1
         else:
             high = mid - 1
 
-    return None, comparisons, -1
+    return None, count, -1
 
 # %%
 def main():
