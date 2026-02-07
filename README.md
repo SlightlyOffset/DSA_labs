@@ -4,8 +4,7 @@ This repository contains my Data Structures and Algorithms laboratory assignment
 
 ## Project Status
 
-### Lab 06: Binary Search
-- **Note:** There is currently one test case remaining to be fixed/passed.
+### All good/pass
 
 ## Getting Started
 
