@@ -1,2 +1,2 @@
-[{"id": "68070027", "name": "Cholteerit Patcharadamrongkul", "gpa": 2.88}, {"id": "68070316", "name": "Sirithep Bordikarn", "gpa": 3.14}, {"id": "68070052", "name": "Thatchakorn Bunnin", "gpa": 4.0}]
-Sirithep Bordikarn
+[{"id": "68076389","name": "Boonprasert Surakratanasakul","gpa": 4.0},{"id": "68070328","name": "Emma Pearson","gpa": 3.62},{"id": "68070077","name": "Napon Narkphan","gpa": 3.12},{"id": "68070145","name": "Purin Leuprasert","gpa": 3.38},{"id": "68070187","name": "Siritatiya Kanmaravanich","gpa": 2.62},{"id": "68070072","name": "Theerawat Russamewikai","gpa": 3.0},{"id": "68070153","name": "Yossawat Imjai","gpa": 3.1}]
+Sooksan Panichpapiboon
