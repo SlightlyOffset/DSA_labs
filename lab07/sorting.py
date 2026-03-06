@@ -41,7 +41,7 @@ def selectionSort(arr, last, key=lambda x: x):
     '''Sorts a list in ascending order using the selection sort algorithm.'''
 
     compareTimes = 0
-    step = []
+    steps = []
     # Pre-calculate keys for efficiency
     keys = [key(x) for x in arr[:last+1]]
 
@@ -57,14 +57,14 @@ def selectionSort(arr, last, key=lambda x: x):
         if min_index != current:
             arr[current], arr[min_index] = arr[min_index], arr[current]
             keys[current], keys[min_index] = keys[min_index], keys[current]
-        step.append(arr.copy())
-    return step, compareTimes
+        steps.append(arr.copy())
+    return steps, compareTimes
 
 def bubbleSort(arr, last, key=lambda x: x):
     '''Sorts a list in ascending order using the bubble sort algorithm.'''
 
     compareTimes = 0
-    step = []
+    steps = []
     # Pre-calculate keys for efficiency
     keys = [key(x) for x in arr[:last+1]]
 
@@ -78,13 +78,13 @@ def bubbleSort(arr, last, key=lambda x: x):
                 arr[walker], arr[walker - 1] = arr[walker - 1], arr[walker]
                 keys[walker], keys[walker - 1] = keys[walker - 1], keys[walker]
                 swapped = True
-        step.append(arr.copy())
+        steps.append(arr.copy())
         # Optimization: If no swaps occurred, the list is already sorted
         if not swapped:
             break
-    if not step:
-        step.append(arr.copy())
-    return step, compareTimes
+    if not steps:
+        steps.append(arr.copy())
+    return steps, compareTimes
 
 def printResult(sortedList, compareTimes):
     # Print the state of the list at each step and the total comparisons
